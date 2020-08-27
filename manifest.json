@@ -7,8 +7,8 @@
         "fr": "Gestionnaire de ticket avec un équilibre entre simplicité et puissance"
     },
     "version": "2.7.1~ynh1",
-    "url": "https://www.mantisbt.org/",
-    "license": "GPL-3.0",
+    "url": "https://github.com/grocy/grocy",
+    "license": "MIT",
     "maintainer": {
         "name": "",
         "email": ""
