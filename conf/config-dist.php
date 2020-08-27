@@ -21,12 +21,12 @@ Setting('MODE', 'production');
 
 # Either "en" or "de" or the directory name of
 # one of the other available localization folders in the "/localization" directory
-Setting('CULTURE', 'en');
+Setting('CULTURE', 'fr');
 
 # This is used to define the first day of a week for calendar views in the frontend,
 # leave empty to use the locale default
 # Needs to be a number where Sunday = 0, Monday = 1 and so forth
-Setting('CALENDAR_FIRST_DAY_OF_WEEK', '');
+Setting('CALENDAR_FIRST_DAY_OF_WEEK', '1');
 
 # If calendars should show week numbers
 Setting('CALENDAR_SHOW_WEEK_OF_YEAR', true);
@@ -47,7 +47,7 @@ Setting('BASE_PATH', '/grocy');
 # The base url of your installation,
 # should be just "/" when running directly under the root of a (sub)domain
 # or for example "https://example.com/grocy" when using a subdirectory
-Setting('BASE_URL', '/');
+Setting('BASE_URL', '__DOMAIN__/__PATH_URL__');
 
 # The plugin to use for external barcode lookups,
 # must be the filename without .php extension and must be located in /data/plugins,
