@@ -1,0 +1,7 @@
+SOURCE_URL=https://github.com/mantisbt/mantisbt/archive/release-2.24.1.tar.gz
+SOURCE_SUM=efef079dc0c4777473b99274d7885bc03411fffa2131f5ab9536af1c8e41a46b
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_EXTRACT=true
+SOURCE_FILENAME=mantisbt-release-2.24.1.tar.gz
