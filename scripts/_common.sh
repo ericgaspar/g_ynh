@@ -4,7 +4,7 @@
 # COMMON VARIABLES
 #=================================================
 
-extra_php_dependencies="php${YNH_PHP_VERSION}-sqlite"
+extra_php_dependencies="php${YNH_PHP_VERSION}-sqlite3"
 
 YNH_PHP_VERSION="7.3"
 
