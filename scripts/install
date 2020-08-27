@@ -106,7 +106,7 @@ ynh_store_file_checksum --file="$final_path/data/config.php"
 #=================================================
 
 # Set permissions to app files
-chown -R $app:$app $final_path
+chown -R www-data:www-data $final_path
 
 #=================================================
 # SETUP SSOWAT

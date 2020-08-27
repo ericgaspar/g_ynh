@@ -6,7 +6,7 @@
 
 extra_php_dependencies="php${YNH_PHP_VERSION}-sqlite3 php${YNH_PHP_VERSION}-fpm php${YNH_PHP_VERSION}-gd"
 
-YNH_PHP_VERSION="7.3"
+YNH_PHP_VERSION="7.4"
 
 #=================================================
 # PERSONAL HELPERS
