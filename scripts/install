@@ -87,7 +87,7 @@ phpversion=$(ynh_app_setting_get --app="$app" --key=phpversion)
 # MODIFY A CONFIG FILE
 #=================================================
 
-cp -a ../conf/config-dist.php "$final_path/config.php"
+cp -a ../conf/config-dist.php "$final_path/data/config.php"
 
 ynh_replace_string --match_string="__DOMAIN__" --replace_string="$domain" --target_file="$final_path/data/config.php"
 ynh_replace_string --match_string="__PATH_URL__" --replace_string="$path_url"  --target_file="$final_path/data/config.php"
