@@ -8,6 +8,7 @@
 		domain="domain.tld"	(DOMAIN)
 		path="/mantis"	    (PATH)
 		admin="john"	    (USER)
+		language="fr"	    (LANGUAGE)
 		is_public=1	        (PUBLIC|public=1|private=0)
 	; Checks
 		pkg_linter=1
