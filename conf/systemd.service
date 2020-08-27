@@ -6,7 +6,7 @@ After=network.target
 [Service]
 User=__APP__
 Group=__APP__
-ExecStart=/usr/bin/php __FINALPATH__/app.php
+ExecStart=/usr/bin/php __FINALPATH__/public/index.php
 Restart=always
 RestartSec=10
 
