@@ -35,19 +35,19 @@ Setting('CALENDAR_SHOW_WEEK_OF_YEAR', true);
 # this here is used to format all money values,
 # so doesn't really matter, but should be the
 # ISO 4217 code of the currency ("USD", "EUR", "GBP", etc.)
-Setting('CURRENCY', 'EUR');
+Setting('CURRENCY', '__LANGUAGE__');
 
 # When running grocy in a subdirectory, this should be set to the relative path, otherwise empty
 # Example:
 #  Webserver root directory = /var/www
 #  grocy directory = /var/www/grocy
 #  => BASE_PATH = /grocy
-Setting('BASE_PATH', '/__APP__');
+Setting('BASE_PATH', '');
 
 # The base url of your installation,
 # should be just "/" when running directly under the root of a (sub)domain
 # or for example "https://example.com/grocy" when using a subdirectory
-Setting('BASE_URL', 'https://__DOMAIN____PATH_URL__');
+Setting('BASE_URL', '/');
 
 # The plugin to use for external barcode lookups,
 # must be the filename without .php extension and must be located in /data/plugins,
