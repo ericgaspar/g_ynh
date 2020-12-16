@@ -18,4 +18,4 @@ jobs:
           git clone --depth=1 https://github.com/YunoHost/package_check
       - name: 'Run linter'
         run: |
-          ~/package_check.sh .
+          ./package_check.sh .
