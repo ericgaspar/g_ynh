@@ -1,0 +1,19 @@
+name: YunoHost apps package checker
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: 'Clone YunoHost apps package check'
+        run: |
+          git clone --depth=1 https://github.com/YunoHost/package_check ~/package_check
+      - name: 'Run linter'
+        run: |
+          ~/package_check.sh .
