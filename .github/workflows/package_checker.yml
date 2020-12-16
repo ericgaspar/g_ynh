@@ -15,7 +15,7 @@ jobs:
 
       - name: 'Clone YunoHost apps package check'
         run: |
-          git clone --depth=1 https://github.com/YunoHost/package_check ~/package_check
+          git clone --depth=1 https://github.com/YunoHost/package_check
       - name: 'Run linter'
         run: |
           ~/package_check.sh .
